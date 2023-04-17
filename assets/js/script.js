@@ -54,18 +54,14 @@ function calculaMMC(den1, den2) {
   var den1 = den1;
   var den2 = den2;
   var mmc;
-  var maior;
-  var testarMaior = den1 > den2;
-  if (testarMaior) {
-    maior = den1;
-  } else {
-    maior = den2;
-  }
-  for (var contador = 1; contador <= maior; contador++) {
+
+ 
+
+  for (var contador = 1; contador <= (den1*den2); contador++) {
     var testarMMC = contador % den1 == 0 && contador % den2 == 0;
     if (testarMMC) {
       mmc = contador;
-      contador = maior;
+      contador = (den1*den2);
     }
   }
   return mmc;
