@@ -1,0 +1,96 @@
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.box-fracao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   width: 100%;
+}
+input{
+    all: unset;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #0d6efd;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.numeradorR > input{
+    background-color: #fd7e14;
+}
+.denominadorR > input{
+    background-color: #fd7e14;
+}
+
+ select{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color:  #6f42c1;
+    color: white;
+    border-radius: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+} 
+.linha{
+    width: 70%;
+    height: 1px;
+    background-color: black;
+}
+.fracao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 20px;
+    gap: 10px;
+    font-weight: bold;
+    color: white;
+}
+.numerador{
+
+}
+.operacao{
+    display: flex;
+    width: 50px;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+}
+.calcular{
+    height: 31px;
+    width: 31px;
+}
+.sinal-resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 31px;
+    padding: 1px;
+    border-radius: 100%;
+    background-color: #d63384;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sinal-resultado:hover{
+    
+    background-color: white;
+    color: #d63384;
+    border: 1px solid #d63384;
+    
+}

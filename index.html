@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Calculadora de fração</title>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box-fracao">
+        <div class="fracao">
+          <div class="numerador">
+            <input id="input_num1" type="text" />
+          </div>
+          <div class="linha"></div>
+          <div class="denominador">
+            <input id="input_den1" type="text" />
+          </div>
+        </div>
+
+        <div class="operacao">
+          <select id="select_operacao">
+            <option value="adi">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+          </select>
+        </div>
+
+        <div class="fracao">
+          <div class="numerador">
+            <input id="input_num2" type="text" />
+          </div>
+          <div class="linha"></div>
+          <div class="denominador">
+            <input id="input_den2" type="text" />
+          </div>
+        </div>
+
+        <div class="calcular">
+          <div onclick="calcular()" class="sinal-resultado"><span>=</span></div>
+        </div>
+
+        <div class="fracao">
+          <div class="numeradorR">
+            <input disabled id="input_numR" type="text" />
+          </div>
+          <div class="linha"></div>
+          <div class="denominadorR">
+            <input disabled id="input_denR" type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="assets/js/script.js"></script>
